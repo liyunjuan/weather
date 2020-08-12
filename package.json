@@ -2,13 +2,19 @@
   "name": "weather_react",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.4",
+    "redux-immutable-state-invariant": "^1.2.4",
+    "redux-mock-store": "^1.2.1",
+    "sinon": "^1.17.7"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react": "^15.4.1",
+    "react-addons-perf": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,5 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://www.weather.cn/"
+  "proxy": "http://www.weather.com.cn/"
 }
